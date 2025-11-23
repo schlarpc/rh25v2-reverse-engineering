@@ -475,7 +475,7 @@ SuperUI is probably the thing that runs the whole show. It's a binary in `/usr/b
 -rwxrwxr-x    1 root     root      580.2K Feb 19  2025 superui
 ```
 
-There's a directory in the root, `/parameter` that contains config files, including one for SuperUI:
+There's a directory in the root, `/parameter`, that contains config files, including one for SuperUI:
 
 ```
 # ls -la /parameter
@@ -571,7 +571,7 @@ all of the settings normally available through the menus.
 
 I didn't dig into the BLE handling or the media streaming server. I believe `test_recoder` is the media
 streaming service, and it appears to do hardware based H.264 encoding through a library called
-`libinfiray2_hard_x264hwenc.so`.ls /
+`libinfiray2_hard_x264hwenc.so`.
 
 ## Filesystem
 
